@@ -1,0 +1,13 @@
+function [ f ] = compute_focal_length( A_h, A_v )
+
+  % call matlab SVD routine to compute X vectors for horizontal and
+  % vertical lines
+  [U,S,V] = svd(A_h);  
+  x_h = V(:,n);
+  if all(v_min < 0); v_min = -v_min; end %
+  
+  
+
+
+end
+
